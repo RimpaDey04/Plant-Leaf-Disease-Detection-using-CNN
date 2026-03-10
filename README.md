@@ -75,35 +75,35 @@ Texture differences
 
 # Technologies Used
 
-Python
+- Python
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-OpenCV / PIL
+- OpenCV / PIL
 
-Jupyter Notebook
+- Jupyter Notebook
 
 # Data Preprocessing
 
 To improve model performance, the following preprocessing steps were applied:
 
-Image rescaling (normalization)
+- Image rescaling (normalization)
 
-Image augmentation:
+- Image augmentation:
 
-Rotation
+- Rotation
 
-Zoom
+- Zoom
 
-Horizontal flipping
+- Horizontal flipping
 
-Shear transformation
+- Shear transformation
 
-These techniques help increase dataset diversity and reduce overfitting.
+- These techniques help increase dataset diversity and reduce overfitting.
 
 # Model Performance
 
@@ -111,16 +111,16 @@ The model was trained for multiple epochs using the training dataset and validat
 
 The accuracy trend during training is shown below.
 
-Training Accuracy: ~91%
+- Training Accuracy: ~91%
 
-Validation Accuracy: ~83%
+- Validation Accuracy: ~83%
 
 This indicates that the model is able to learn meaningful features while maintaining good generalization performance.
 
 Key observations from the graph:
 
-Training accuracy increases steadily with epochs.
+- Training accuracy increases steadily with epochs.
 
-Validation accuracy also improves, showing that the model generalizes well.
+- Validation accuracy also improves, showing that the model generalizes well.
 
-The gap between training and validation accuracy is moderate, indicating limited overfitting.
+- The gap between training and validation accuracy is moderate, indicating limited overfitting.
